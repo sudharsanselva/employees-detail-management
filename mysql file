@@ -1,0 +1,11 @@
+create database project;
+use project;
+create table biodata(ID int auto_increment primary key,Name varchar(50),Age int,Address varchar(50),City varchar(50));
+desc biodata;
+insert into biodata(Name,Age,Address,City) values('Sekar',21,'123,vijay nagar','Chennai'),
+('babu',19,'xyz,gandhi nagar','kovai'),
+('Sekar',21,'ABC,siva nagar','thanjai'),
+('Sekar',31,'203,jai nagar','bangalore'),
+('Sekar',21,'897,ajith nagar','delhi');
+select * from biodata;
+drop table biodata;
